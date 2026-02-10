@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html class="" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BKS CONSTRUCTION - Vente de Matériaux au Bénin</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f8b035",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#1A1A1A",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .hazard-stripe {
+            background: repeating-linear-gradient(
+                -45deg,
+                #f8b035,
+                #f8b035 20px,
+                #1A1A1A 20px,
+                #1A1A1A 40px
+            );
+            height: 12px;
+            width: 100%;
+        }
+        .hero-overlay {
+            background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8));
+        }
+    </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 selection:bg-primary selection:text-white">
+<!-- Navigation -->
+<nav class="sticky top-0 z-50 bg-background-dark border-b border-primary/20 py-4">
+<div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+<div class="flex items-center space-x-2">
+<span class="text-primary font-extrabold text-2xl tracking-tighter">BKS</span>
+<span class="text-white font-bold text-2xl tracking-tighter">CONSTRUCTION</span>
+</div>
+<div class="hidden md:flex items-center space-x-8 text-sm font-semibold uppercase tracking-wider text-white">
+<a class="hover:text-primary transition-colors" href="#">Accueil</a>
+<a class="hover:text-primary transition-colors" href="#produits">Produits</a>
+<a class="hover:text-primary transition-colors" href="#pourquoi">Expertise</a>
+<a class="px-5 py-2 bg-primary text-background-dark rounded hover:bg-white transition-all" href="#contact">Devis Express</a>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative h-[85vh] flex items-center overflow-hidden bg-background-dark">
+<div class="absolute inset-0 z-0">
+<img alt="Chantier de construction" class="w-full h-full object-cover opacity-40" data-alt="Vue panoramique d'un grand chantier de construction moderne" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEoglYu63FZEjSQkeD_jCtQIGNO7VLdx3ywyp4Ob11tk4eUmy_4z1QLbAYl5wVFbAgSZ2ZVtdug4bS6k9bRl3ug5b9HqUKGooLJpmIOGcfbu8fi2_oiHIHvHk23n9Vqi2DsL_PanHEue1vYy8lVaH2hH-QVC99XaehoKWHzx8MkW8qyMhiBlQuatk4lGcnErMepcq4A5IOAiUbvLnkiHWZa88EkF04eraDQNGbOovvHql2-woc4pNmJhpsTioS2n6LSJdardEs1JXt"/>
+<div class="absolute inset-0 hero-overlay"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+<div class="max-w-3xl">
+<h1 class="text-6xl md:text-7xl font-extrabold text-white leading-tight uppercase mb-4">
+                    Vente de <span class="text-primary">Matériaux</span> de Construction
+                </h1>
+<p class="text-primary text-xl md:text-2xl font-medium mb-8 uppercase tracking-widest">
+                    Matériaux Solides, Qualité Garantie
+                </p>
+<div class="flex flex-wrap gap-4">
+<a class="flex items-center space-x-3 bg-primary text-background-dark px-8 py-4 rounded font-bold text-lg hover:bg-white transition-all group" href="https://wa.me/22900000000">
+<span class="material-icons">whatsapp</span>
+<span>COMMANDER SUR WHATSAPP</span>
+</a>
+<a class="border-2 border-white text-white px-8 py-4 rounded font-bold text-lg hover:bg-white hover:text-background-dark transition-all" href="#produits">
+                        NOS PRODUITS
+                    </a>
+</div>
+</div>
+</div>
+<!-- Hazard Stripe Accent -->
+<div class="absolute bottom-0 left-0 hazard-stripe"></div>
+</section>
+<!-- Products Section (NOUS AVONS QUOI?) -->
+<section class="py-24 bg-background-light dark:bg-background-dark px-6" id="produits">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-extrabold dark:text-white text-background-dark uppercase mb-2">Nous Avons Quoi?</h2>
+<div class="h-1.5 w-24 bg-primary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Briques -->
+<div class="group bg-white dark:bg-zinc-900 border-2 border-transparent hover:border-primary transition-all p-2 rounded-lg shadow-xl">
+<div class="h-64 overflow-hidden rounded-md mb-4">
+<img alt="Briques" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pile de briques de construction rouges alignées" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAV8vXmdqujwFzZ-idkwDXZeivc246_bTJIqt5qgFZCGwXc0VykKMWqbbFWKy_pBBmiG9-uWwcjBZJf9wF9hcmbLEEL9B4y7QUW_sUv_lRW6_odt4swdFnAc3-OJNGItjiromx6FJ5-rIANN4_qsf0Ek-852ScjteQKaDi2v3qQo22pbJAg0v_LJxAs1_maIlxmb-BAfx8xJbVWcGAQtngEIi1igL1Pe0H1rK4BYyJctHuaIfXCgaa5rrZa4fi-90bTOAonmJfYzLkG"/>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-bold uppercase mb-2 dark:text-white">Briques</h3>
+<p class="text-slate-500 dark:text-zinc-400 text-sm mb-4">Briques de qualité supérieure, vibrées et résistantes pour tous types d'élévations.</p>
+<button class="w-full py-2 bg-zinc-100 dark:bg-zinc-800 font-bold text-sm uppercase group-hover:bg-primary group-hover:text-background-dark transition-colors">Détails &amp; Prix</button>
+</div>
+</div>
+<!-- Ciment -->
+<div class="group bg-white dark:bg-zinc-900 border-2 border-transparent hover:border-primary transition-all p-2 rounded-lg shadow-xl">
+<div class="h-64 overflow-hidden rounded-md mb-4">
+<img alt="Ciment" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sacs de ciment empilés dans un entrepôt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcZ0y5qTQ7fOn70gXb4P-fddffdvtZxBiompylwo6LwS7t7svdVbGsDnKR9Ixdm9bsP_owZ9G4GlvVShZQ6SX1C5s0kpWKI3ZoEj2F2HfurR2YcO3yOLJG2ALEofBCnx1yzQzoq1PzOenTEzm94VF961duxgg_rmekS6istANJfwo6rS551Z3KR-4DkitFt0INk1a-akr_urgpPTdTiSnJPWRUBnv7azxzuJpYMY3FyAvYPwOEkABeGGQG42oM6XI_EQusewBXRUPu"/>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-bold uppercase mb-2 dark:text-white">Ciment</h3>
+<p class="text-slate-500 dark:text-zinc-400 text-sm mb-4">Ciment CPJ 35 &amp; 45 certifié. Livraison rapide sur vos chantiers en gros ou détail.</p>
+<button class="w-full py-2 bg-zinc-100 dark:bg-zinc-800 font-bold text-sm uppercase group-hover:bg-primary group-hover:text-background-dark transition-colors">Détails &amp; Prix</button>
+</div>
+</div>
+<!-- Sable -->
+<div class="group bg-white dark:bg-zinc-900 border-2 border-transparent hover:border-primary transition-all p-2 rounded-lg shadow-xl">
+<div class="h-64 overflow-hidden rounded-md mb-4">
+<img alt="Sable" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Gros plan de sable de construction fin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcztCSUNjhkQG5habGKzPI4f7hypgP67t8dJaGN7Vycmln_8MLjmpj554oXnHstqtgLtIWwUeP0_kNB-lE1vs4fGbbs8nLTblFFDWtMjVeQafBJwMydV5e8MSskN2-C59HRcOGF9Vai8fMiNEucovosW3ubiJHQ_8d8DooSG6VvC0Kz1WX2NVC_QeHbbMREvacR6sAQNqxKiQRb0h0zA-bUXEOSv1uagLmK22dKsHyyg8wxR5sHqcwAmD7lNIQRySRxc-TSFEMNjOU"/>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-bold uppercase mb-2 dark:text-white">Sable</h3>
+<p class="text-slate-500 dark:text-zinc-400 text-sm mb-4">Sable de mer et sable de lagune lavé pour des mélanges de béton homogènes.</p>
+<button class="w-full py-2 bg-zinc-100 dark:bg-zinc-800 font-bold text-sm uppercase group-hover:bg-primary group-hover:text-background-dark transition-colors">Détails &amp; Prix</button>
+</div>
+</div>
+<!-- Fer -->
+<div class="group bg-white dark:bg-zinc-900 border-2 border-transparent hover:border-primary transition-all p-2 rounded-lg shadow-xl">
+<div class="h-64 overflow-hidden rounded-md mb-4">
+<img alt="Fer" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Barres d'acier de renforcement pour béton" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfuh4pLDP91sUjVlCTkE_1s9hSet7OY5bN96eHBxVGTz_n7TLmCGpCIHDi-2JGM4CpyQVZuJiJ_ZeLcFZdxYLmmC9uQnEj66Zh2W-J-FehmhQxkfVPcFTifAhhw9rGuQ0tUKH36OKOz_zxAkW15BF3oGoQyISwUgV43gK_Vv68Uc1_efNlVzsJzVL5uCAa_fcd1wHOgi3ygqioQ7N7Qggtwkik4Biu_xIpKnRqkRjarPZNa7FGT6EwGIfcmcyWawNz6vlC1nPV5Ts"/>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-bold uppercase mb-2 dark:text-white">Fer de Construction</h3>
+<p class="text-slate-500 dark:text-zinc-400 text-sm mb-4">Barres de fer FeE500 de tous diamètres (6, 8, 10, 12, 14, 16) pour vos armatures.</p>
+<button class="w-full py-2 bg-zinc-100 dark:bg-zinc-800 font-bold text-sm uppercase group-hover:bg-primary group-hover:text-background-dark transition-colors">Détails &amp; Prix</button>
+</div>
+</div>
+<!-- Gravier -->
+<div class="group bg-white dark:bg-zinc-900 border-2 border-transparent hover:border-primary transition-all p-2 rounded-lg shadow-xl">
+<div class="h-64 overflow-hidden rounded-md mb-4">
+<img alt="Gravier" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Amas de gravier concassé gris pour béton" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdkZyFYqnDr-nnogxZDvJkn2n0lTQOu0qZysjP4p3HsZLhr9YMjhv94bWNz_z5vpQqfX_uYZ-PFDp0dH5Q9a9EQ22orvTLB_ZGiKWrs_FABl_J0WGEsbwFUqmtL-DLf2RpHpKPfZ3f9Iv3gI1PnO71A0-TdNNsRdkk1VWEvkGIdfAS4tw0UywUiSSoOl92jtwiqvYGVK6OCx35eFH__BwJsYvg7YPDKI-LBQB2Nbk0ALGv5dHPj3JqDV-i5zrWgOaT6t64iUqIv1bw"/>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-bold uppercase mb-2 dark:text-white">Gravier</h3>
+<p class="text-slate-500 dark:text-zinc-400 text-sm mb-4">Gravier concassé 5/15 et 15/25 disponible en tonnage selon vos besoins.</p>
+<button class="w-full py-2 bg-zinc-100 dark:bg-zinc-800 font-bold text-sm uppercase group-hover:bg-primary group-hover:text-background-dark transition-colors">Détails &amp; Prix</button>
+</div>
+</div>
+<!-- Suivi -->
+<div class="group bg-white dark:bg-zinc-900 border-2 border-transparent hover:border-primary transition-all p-2 rounded-lg shadow-xl">
+<div class="h-64 overflow-hidden rounded-md mb-4">
+<img alt="Contrôle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Ingénieur vérifiant des plans sur un chantier" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnQCE6ux2KUpGxMwhE-9qSSZMhzCaebvqPhBO0cgjjM8QziWhoIqvoO0wN-wZi7sdkw8nqR1qgIuULJif_99RDtS05hKnBdfK9wS1_cBlUY0uzV3Gqv-byaFojX8d3Rw3tEvRMncbvFzqCKS6yPoDWq4xqyfcpxtCk6WyGIC4R0PvUP9ea2aLk85pRgCzopAqqmYfrtU4ZXC8ppJ3I7DX9l0FQEYqRCwC1gxL3bpbt3FoScyAWG-_hsY8tQjHwLmO25zoFGUCRkjn7"/>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-bold uppercase mb-2 dark:text-white">Contrôle &amp; Suivi</h3>
+<p class="text-slate-500 dark:text-zinc-400 text-sm mb-4">Expertise technique et suivi de chantier pour garantir la bonne mise en œuvre.</p>
+<button class="w-full py-2 bg-zinc-100 dark:bg-zinc-800 font-bold text-sm uppercase group-hover:bg-primary group-hover:text-background-dark transition-colors">Détails &amp; Prix</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us Section -->
+<section class="py-24 bg-zinc-100 dark:bg-zinc-800/30 px-6 border-y border-zinc-200 dark:border-zinc-800" id="pourquoi">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+<div class="flex flex-col items-center">
+<div class="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mb-6">
+<span class="material-icons text-primary text-4xl">engineering</span>
+</div>
+<h3 class="text-2xl font-bold uppercase mb-4 dark:text-white">Expertise</h3>
+<p class="text-slate-600 dark:text-zinc-400 leading-relaxed">Plus de 10 ans d'accompagnement dans les projets de construction au Bénin avec une équipe d'experts.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mb-6">
+<span class="material-icons text-primary text-4xl">verified_user</span>
+</div>
+<h3 class="text-2xl font-bold uppercase mb-4 dark:text-white">Sécurité</h3>
+<p class="text-slate-600 dark:text-zinc-400 leading-relaxed">Tous nos matériaux sont testés et certifiés conformes aux normes de construction en vigueur.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mb-6">
+<span class="material-icons text-primary text-4xl">local_shipping</span>
+</div>
+<h3 class="text-2xl font-bold uppercase mb-4 dark:text-white">Fiabilité</h3>
+<p class="text-slate-600 dark:text-zinc-400 leading-relaxed">Respect strict des délais de livraison. Votre chantier ne s'arrêtera jamais par manque de stock.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery & Testimonials -->
+<section class="py-24 px-6 overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-4xl font-extrabold dark:text-white text-background-dark uppercase mb-12 text-center">Nos Réalisations</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-24">
+<div class="col-span-2 row-span-2">
+<img class="w-full h-full object-cover rounded-lg" data-alt="Immeuble moderne en cours de construction au Bénin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDth-hB2Dlqf1juz4qFGEh6kPmnD1U6kYrdR5nBwwfO0XvWGSKyL7xze0R9ES5enahTuF7_Sx0n5vRCVqnqtaDBfza4_hi_sK8mqtoHUxqL1nRY-voLLV1rqWXLmO-shosO5k5SGEWmAgbrBVGowSYEsTPQIJfmyEE29KaooTniCT0XSzj1ZZeHAlasD8gOLLYtKukiqwlTsVYwumpDQtXp-Q_f-MhrHJz2WcFHD5MuLM3fVsSZGm3fU9tEFBHGJG1sZAYkMOcVKy7H"/>
+</div>
+<div>
+<img class="w-full h-48 object-cover rounded-lg" data-alt="Gros plan de fondations en béton" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAt2T7Q69aTyeHzK62_RD7sfTlASju2E-zVA5kruWAWnSAwD2a-7wMAm2O2wyC7gd_U9U9EvV4T9EHmcJUJt7MrmAYJwd9v9hAeDmbA0EiWfMCJRzELr80nN-AofxBGfU35vyVYG3bQSk-zc8CrrRz2sBz_j7zM_wGE_ZiwuBaLKSCEyavgWa2iRn7iS9KMhp_qOmD01SHDf6UnjEiyLyLPn9c08Zvq4QJa1-AxO8nUDpGudkPeGbXvxjNV5p6Zqit-jN6NBeL1h-GE"/>
+</div>
+<div>
+<img class="w-full h-48 object-cover rounded-lg" data-alt="Camion de livraison déchargeant du sable" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGY7VODS7pgl3JC_7IAvtkJWy2s0iYaG-25vFco4AbX6yGCzhIMkVJq1CBMrAkEmvOVjcNi56y0XVW3uGtTYIXzYOOPASdKLrwgKrAhSZ-T5u9siOvdxUfaXpUbsFW1cGVHpZrPqwtbkFSRDKlryTFWq9vshFBhkgMarrXXLdb7mw0xPSv6GVawbnUiJMFeohI6k1telxw5uyzJj9w7YPjpqhaA0cEDYd5MSC8NbxI_quzOpOVk6FBGBLbeT4LT0sgqFtCkEPeJmKy"/>
+</div>
+<div class="col-span-2">
+<img class="w-full h-48 object-cover rounded-lg" data-alt="Travailleurs installant des barres d'armature" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPzhIewlQocBv7GjE_POlBnD6JimUCEWBmvasLiOsSvnVkxFR94CZMFCQrk31ZkJLDVRQuc72vLBVq2tvfWoW6_dmCmy7XDUdh5VRjVAqrL2fAipq21OSE8IzEWTbMo2_t3sjiv-4naW-qkmstnd9xBBSqnWGu0sdFJBlXk7sEQuDtX7QHjyf_BF_d5BDJgDo-k9WCJKRURO7uvQFgUhS7LFF2bfwmZ3a1-KbCjiBL6AML5iSEtYrFCvYrZvoumb7E-EN59TxHXevx"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-white dark:bg-zinc-900 p-8 rounded-xl border-l-4 border-primary shadow-lg">
+<div class="flex text-primary mb-4">
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+</div>
+<p class="italic text-slate-600 dark:text-zinc-400 mb-6">"Qualité irréprochable des briques. Livraison à temps sur mon chantier à Calavi."</p>
+<div>
+<p class="font-bold dark:text-white">Jean-Pierre M.</p>
+<p class="text-sm text-primary uppercase font-semibold">Abomey-Calavi</p>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-white dark:bg-zinc-900 p-8 rounded-xl border-l-4 border-primary shadow-lg">
+<div class="flex text-primary mb-4">
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+</div>
+<p class="italic text-slate-600 dark:text-zinc-400 mb-6">"BKS Construction est le partenaire le plus fiable que j'ai eu pour le fer et le ciment."</p>
+<div>
+<p class="font-bold dark:text-white">Mme. Salami</p>
+<p class="text-sm text-primary uppercase font-semibold">Cotonou (Fidjrossè)</p>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-white dark:bg-zinc-900 p-8 rounded-xl border-l-4 border-primary shadow-lg">
+<div class="flex text-primary mb-4">
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+</div>
+<p class="italic text-slate-600 dark:text-zinc-400 mb-6">"Le suivi de chantier est un vrai plus. Ils ne vendent pas que du sable, ils vendent du conseil."</p>
+<div>
+<p class="font-bold dark:text-white">Christian T.</p>
+<p class="text-sm text-primary uppercase font-semibold">Porto-Novo</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-24 bg-background-light dark:bg-background-dark px-6 border-t border-zinc-200 dark:border-zinc-800" id="contact">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col lg:flex-row gap-16">
+<!-- Form -->
+<div class="lg:w-2/3">
+<h2 class="text-4xl font-extrabold dark:text-white text-background-dark uppercase mb-8">Demander un Devis</h2>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-bold uppercase mb-2 dark:text-zinc-400">Nom Complet</label>
+<input class="w-full bg-white dark:bg-zinc-900 border-2 border-zinc-200 dark:border-zinc-800 p-4 rounded focus:border-primary focus:ring-0 transition-all outline-none text-white" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-bold uppercase mb-2 dark:text-zinc-400">Téléphone</label>
+<input class="w-full bg-white dark:bg-zinc-900 border-2 border-zinc-200 dark:border-zinc-800 p-4 rounded focus:border-primary focus:ring-0 transition-all outline-none text-white" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-bold uppercase mb-2 dark:text-zinc-400">Type de Matériaux</label>
+<select class="w-full bg-white dark:bg-zinc-900 border-2 border-zinc-200 dark:border-zinc-800 p-4 rounded focus:border-primary focus:ring-0 transition-all outline-none text-slate-500">
+<option>Sélectionnez un produit</option>
+<option>Briques</option>
+<option>Ciment</option>
+<option>Sable / Gravier</option>
+<option>Fer de construction</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-bold uppercase mb-2 dark:text-zinc-400">Votre Message / Adresse de Livraison</label>
+<textarea class="w-full bg-white dark:bg-zinc-900 border-2 border-zinc-200 dark:border-zinc-800 p-4 rounded focus:border-primary focus:ring-0 transition-all outline-none text-white" rows="4"></textarea>
+</div>
+<button class="bg-primary text-background-dark font-black uppercase tracking-widest px-12 py-5 rounded hover:bg-white transition-all shadow-xl shadow-primary/20">Envoyer la Demande</button>
+</form>
+</div>
+<!-- Info -->
+<div class="lg:w-1/3">
+<div class="bg-zinc-900 p-10 rounded-xl h-full flex flex-col justify-between">
+<div>
+<h3 class="text-2xl font-bold text-white uppercase mb-8 border-b-2 border-primary inline-block">Contact Rapide</h3>
+<div class="space-y-8 mt-4">
+<div class="flex items-start space-x-4">
+<span class="material-icons text-primary">location_on</span>
+<div>
+<p class="text-white font-bold">Siège Social</p>
+<p class="text-zinc-400">Carrefour Cica-Toyota, Cotonou, Bénin</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<span class="material-icons text-primary">phone_iphone</span>
+<div>
+<p class="text-white font-bold">Téléphone &amp; WhatsApp</p>
+<p class="text-zinc-400">+229 97 00 00 00</p>
+<p class="text-zinc-400">+229 95 00 00 00</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<span class="material-icons text-primary">alternate_email</span>
+<div>
+<p class="text-white font-bold">Email</p>
+<p class="text-zinc-400">contact@bksconstruction.bj</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12">
+<a class="block text-center bg-green-600 text-white font-bold py-5 rounded hover:bg-green-500 transition-colors flex items-center justify-center space-x-3" href="https://wa.me/22900000000">
+<span class="material-icons">whatsapp</span>
+<span>DISCUTER SUR WHATSAPP</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background-dark pt-1 px-6">
+<div class="hazard-stripe"></div>
+<div class="max-w-7xl mx-auto py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center space-x-2 mb-6">
+<span class="text-primary font-extrabold text-3xl tracking-tighter">BKS</span>
+<span class="text-white font-bold text-3xl tracking-tighter">CONSTRUCTION</span>
+</div>
+<p class="text-zinc-400 max-w-sm mb-8 leading-relaxed">Votre partenaire de confiance pour tous vos besoins en matériaux de construction au Bénin. Qualité, Rapidité et Fiabilité sont au cœur de notre engagement.</p>
+<div class="flex space-x-4">
+<a class="w-10 h-10 bg-zinc-800 rounded flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-icons">facebook</span></a>
+<a class="w-10 h-10 bg-zinc-800 rounded flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-icons">camera_alt</span></a>
+<a class="w-10 h-10 bg-zinc-800 rounded flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-icons">linkedin</span></a>
+</div>
+</div>
+<div>
+<h4 class="text-white font-bold uppercase mb-6">Navigation</h4>
+<ul class="space-y-4 text-zinc-400 font-medium">
+<li><a class="hover:text-primary transition-colors" href="#">Accueil</a></li>
+<li><a class="hover:text-primary transition-colors" href="#produits">Nos Produits</a></li>
+<li><a class="hover:text-primary transition-colors" href="#pourquoi">À Propos</a></li>
+<li><a class="hover:text-primary transition-colors" href="#contact">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold uppercase mb-6">Zone de Livraison</h4>
+<ul class="space-y-4 text-zinc-400 font-medium">
+<li>Cotonou</li>
+<li>Abomey-Calavi</li>
+<li>Porto-Novo</li>
+<li>Ouidah</li>
+<li>Allada</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto py-8 border-t border-zinc-800 text-center text-sm text-zinc-500">
+<p>© 2024 BKS CONSTRUCTION. Tous droits réservés. Design Industriel de Qualité.</p>
+</div>
+</footer>
+</body></html>
